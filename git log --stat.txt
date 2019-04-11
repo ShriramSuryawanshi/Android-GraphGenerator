@@ -1,0 +1,187 @@
+commit 46d74034b547ea75e10c1e668ecc265a4ec030eb
+Author: ShriramSuryawanshi <shriram.a.suryawanshi@gmail.com>
+Date:   Fri Apr 5 17:02:25 2019 -0400
+
+    ReadMe, Screenshots, Demo Video
+
+ Demo Video.mp4   | Bin 0 -> 43358485 bytes
+ README.md        |   8 ++++----
+ Screenshot 1.png | Bin 0 -> 282682 bytes
+ Screenshot 2.png | Bin 0 -> 169143 bytes
+ Screenshot 3.png | Bin 0 -> 111987 bytes
+ 5 files changed, 4 insertions(+), 4 deletions(-)
+
+commit bbab9f0f612829461b08a7ac7fe3d0300e637d92
+Author: ShriramSuryawanshi <shriram.a.suryawanshi@gmail.com>
+Date:   Fri Apr 5 16:29:43 2019 -0400
+
+    One more bug fix
+
+ README.md                                | 34 ++++++++++++++++++++++++++++++--
+ Sample DOT Input.txt                     | 22 +++++++++++++++++++++
+ app/src/main/res/layout/content_main.xml |  9 ++++-----
+ 3 files changed, 58 insertions(+), 7 deletions(-)
+
+commit 3e00ee071c88b3409317a4aeb84942d0d5a7a933
+Author: ShriramSuryawanshi <shriram.a.suryawanshi@gmail.com>
+Date:   Fri Apr 5 15:53:26 2019 -0400
+
+    multiple graphs bug fixes
+
+ app/src/main/java/com/example/graphgenerator/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit be7c5715d489c0b18d9a2fc1d6de2c1124fb4e6b
+Author: ShriramSuryawanshi <shriram.a.suryawanshi@gmail.com>
+Date:   Fri Apr 5 13:16:04 2019 -0400
+
+    Bug fixes, Ready to Test
+
+ app/src/main/java/com/example/graphgenerator/MainActivity.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 04bb16aab57e9724176d4beb66052a376cdf2cf9
+Author: ShriramSuryawanshi <shriram.a.suryawanshi@gmail.com>
+Date:   Fri Apr 5 12:54:58 2019 -0400
+
+    Adding Google Cloud Server
+
+ GCP Commands.txt                                   |  16 +++
+ .../com/example/graphgenerator/MainActivity.java   | 113 ++++++++++++++++-----
+ app/src/main/res/layout/content_main.xml           |  35 ++++++-
+ 3 files changed, 137 insertions(+), 27 deletions(-)
+
+commit 909000431ae91870e497bfd7a4ee5cf163f05ee1
+Author: ShriramSuryawanshi <shriram.a.suryawanshi@gmail.com>
+Date:   Fri Apr 5 03:39:31 2019 -0400
+
+    Generating DOT from user input
+
+ .../com/example/graphgenerator/MainActivity.java   | 53 ++++++++++++++++++----
+ app/src/main/res/layout/content_main.xml           | 10 +++-
+ app/src/main/res/layout/spinner_item.xml           |  2 +
+ 3 files changed, 53 insertions(+), 12 deletions(-)
+
+commit 4342b51a6d41967092c4623b517c62248aa11055
+Author: ShriramSuryawanshi <shriram.a.suryawanshi@gmail.com>
+Date:   Fri Apr 5 02:24:07 2019 -0400
+
+    Addin node inputs
+
+ .../com/example/graphgenerator/MainActivity.java   | 133 ++++++++++++++++++---
+ app/src/main/res/layout/content_main.xml           |  92 +++++++++++++-
+ build.gradle                                       |   2 +-
+ 3 files changed, 210 insertions(+), 17 deletions(-)
+
+commit f1076cb78c04e60aa3ee332f237a8a31ff3f7627
+Author: ShriramSuryawanshi <shriram.a.suryawanshi@gmail.com>
+Date:   Wed Apr 3 20:09:54 2019 -0400
+
+    UI Phase 2
+
+ .../com/example/graphgenerator/MainActivity.java   | 126 ++++++++++++++---
+ app/src/main/res/layout/content_main.xml           | 154 +++++++++++++++++++--
+ app/src/main/res/layout/spinner_item.xml           |  10 ++
+ app/src/main/res/values/colors.xml                 |   3 +-
+ app/src/main/res/values/strings.xml                |  13 ++
+ 5 files changed, 276 insertions(+), 30 deletions(-)
+
+commit ffc00164aa0797dd779f44780365e7f606adea46
+Author: ShriramSuryawanshi <shriram.a.suryawanshi@gmail.com>
+Date:   Wed Apr 3 12:55:46 2019 -0400
+
+    UI phase 1
+
+ app/build.gradle                                   |   1 +
+ app/src/main/AndroidManifest.xml                   |  10 +-
+ .../com/example/graphgenerator/MainActivity.java   |  69 ++++----
+ app/src/main/res/font/aladin.xml                   |   7 +
+ app/src/main/res/layout/activity_main.xml          |  27 ---
+ app/src/main/res/layout/content_main.xml           | 182 +++++++++++++++++----
+ app/src/main/res/values/colors.xml                 |   7 +-
+ app/src/main/res/values/font_certs.xml             |  17 ++
+ app/src/main/res/values/preloaded_fonts.xml        |   6 +
+ app/src/main/res/values/styles.xml                 |   4 +-
+ build.gradle                                       |   2 +-
+ 11 files changed, 228 insertions(+), 104 deletions(-)
+
+commit f48aad3656d68ab2002335d8cedb52707168c6e0
+Author: ShriramSuryawanshi <shriram.a.suryawanshi@gmail.com>
+Date:   Fri Mar 29 02:10:14 2019 -0400
+
+    trial commit
+
+ README.md | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 319923fa7e84d9ee34af4fc3bd41f7a0463ca36b
+Author: Aditya Surendra Dere <adere1@users.noreply.github.com>
+Date:   Thu Mar 28 16:06:48 2019 -0400
+
+    Added files for Internet access
+
+ app/src/main/AndroidManifest.xml                   |  1 +
+ .../com/example/graphgenerator/MainActivity.java   | 24 ++++++++++++++++++++++
+ app/src/main/res/layout/activity_main.xml          |  9 +++++++-
+ app/src/main/res/layout/content_main.xml           |  6 +++++-
+ 4 files changed, 38 insertions(+), 2 deletions(-)
+
+commit 1b2cc4083fe1688d9c7b028c3f22fe18c1700efe
+Author: Aditya Surendra Dere <adere1@users.noreply.github.com>
+Date:   Sun Mar 24 23:30:53 2019 -0400
+
+    First Commit
+
+ .gitignore                                         |  13 ++
+ .idea/codeStyles/Project.xml                       |  29 ++++
+ .idea/gradle.xml                                   |  15 ++
+ .idea/misc.xml                                     |   9 ++
+ .idea/runConfigurations.xml                        |  12 ++
+ .idea/vcs.xml                                      |   6 +
+ app/.gitignore                                     |   1 +
+ app/build.gradle                                   |  29 ++++
+ app/proguard-rules.pro                             |  21 +++
+ .../graphgenerator/ExampleInstrumentedTest.java    |  26 ++++
+ app/src/main/AndroidManifest.xml                   |  24 +++
+ .../com/example/graphgenerator/MainActivity.java   |  52 +++++++
+ .../res/drawable-v24/ic_launcher_foreground.xml    |  34 ++++
+ app/src/main/res/drawable/graph1.png               | Bin 0 -> 179311 bytes
+ app/src/main/res/drawable/graph2.png               | Bin 0 -> 19802 bytes
+ .../main/res/drawable/ic_launcher_background.xml   | 170 ++++++++++++++++++++
+ app/src/main/res/layout/activity_main.xml          |  33 ++++
+ app/src/main/res/layout/content_main.xml           |  51 ++++++
+ app/src/main/res/menu/menu_main.xml                |  10 ++
+ app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml |   5 +
+ .../res/mipmap-anydpi-v26/ic_launcher_round.xml    |   5 +
+ app/src/main/res/mipmap-hdpi/ic_launcher.png       | Bin 0 -> 2963 bytes
+ app/src/main/res/mipmap-hdpi/ic_launcher_round.png | Bin 0 -> 4905 bytes
+ app/src/main/res/mipmap-mdpi/ic_launcher.png       | Bin 0 -> 2060 bytes
+ app/src/main/res/mipmap-mdpi/ic_launcher_round.png | Bin 0 -> 2783 bytes
+ app/src/main/res/mipmap-xhdpi/ic_launcher.png      | Bin 0 -> 4490 bytes
+ .../main/res/mipmap-xhdpi/ic_launcher_round.png    | Bin 0 -> 6895 bytes
+ app/src/main/res/mipmap-xxhdpi/ic_launcher.png     | Bin 0 -> 6387 bytes
+ .../main/res/mipmap-xxhdpi/ic_launcher_round.png   | Bin 0 -> 10413 bytes
+ app/src/main/res/mipmap-xxxhdpi/ic_launcher.png    | Bin 0 -> 9128 bytes
+ .../main/res/mipmap-xxxhdpi/ic_launcher_round.png  | Bin 0 -> 15132 bytes
+ app/src/main/res/values/colors.xml                 |   6 +
+ app/src/main/res/values/dimens.xml                 |   3 +
+ app/src/main/res/values/strings.xml                |   4 +
+ app/src/main/res/values/styles.xml                 |  20 +++
+ .../example/graphgenerator/ExampleUnitTest.java    |  17 ++
+ build.gradle                                       |  27 ++++
+ gradle.properties                                  |  15 ++
+ gradle/wrapper/gradle-wrapper.jar                  | Bin 0 -> 54329 bytes
+ gradle/wrapper/gradle-wrapper.properties           |   6 +
+ gradlew                                            | 172 +++++++++++++++++++++
+ gradlew.bat                                        |  84 ++++++++++
+ settings.gradle                                    |   1 +
+ 43 files changed, 900 insertions(+)
+
+commit f088430dcddfec01f79b3723c54e6ccb74117a26
+Author: Aditya Surendra Dere <35678744+adere1@users.noreply.github.com>
+Date:   Thu Mar 21 10:43:01 2019 -0400
+
+    Initial commit
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
